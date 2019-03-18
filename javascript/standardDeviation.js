@@ -1,5 +1,5 @@
 
-standardDeviation = (numArr) => {
+const standardDeviation = (numArr) => {
 
     let sum = 0;
     let n = 0;
@@ -20,3 +20,5 @@ standardDeviation = (numArr) => {
 
     return stdDev;
 }
+
+console.log(standardDeviation([2,3,4,5,6,10]));
