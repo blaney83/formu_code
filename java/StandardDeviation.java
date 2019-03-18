@@ -20,7 +20,7 @@ public class StandardDeviation {
 	    for(double data : someData){
 	        sum += Math.pow((data - mean), 2);
 	    }
-	    //using e ^ (natural log / root) improves accuracy
+	    //using e ^ (natural log / root) improves accuracy of sqrt (sum/n)
 	    double stdDev = Math.pow(Math.E, (Math.log(sum/n)/2));
 
 	    return stdDev;
